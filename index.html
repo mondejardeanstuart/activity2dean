@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SMCC-CCIS Week 2025 – Campus Event Showcase and Registration</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Inter', Arial, Helvetica, sans-serif;
     }
 
     body {
@@ -50,8 +51,9 @@
     .card h2 {
       color: #0b6e3a;
       margin-bottom: 18px;
-      font-weight: 600;
-      letter-spacing: -0.2px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      font-family: 'Inter', sans-serif;
     }
 
     header {
@@ -66,6 +68,7 @@
       font-size: 2.6rem;
       font-weight: 700;
       letter-spacing: -0.5px;
+      font-family: 'Inter', sans-serif;
     }
 
     header h1 span {
@@ -77,6 +80,7 @@
       margin-top: 12px;
       opacity: 0.9;
       font-weight: 300;
+      font-family: 'Inter', sans-serif;
     }
 
     nav {
@@ -97,6 +101,7 @@
       border-radius: 30px;
       transition: 0.2s;
       font-size: 1rem;
+      font-family: 'Inter', sans-serif;
     }
 
     nav a:hover {
@@ -124,6 +129,7 @@
       width: 100%;
       border-collapse: collapse;
       margin-top: 6px;
+      font-family: 'Inter', sans-serif;
     }
 
     table th, table td {
@@ -152,6 +158,7 @@
       font-weight: 600;
       margin-top: 14px;
       font-size: 0.95rem;
+      font-family: 'Inter', sans-serif;
     }
 
     input, select, textarea {
@@ -162,6 +169,7 @@
       background: #fdfdfd;
       transition: 0.2s;
       width: 100%;
+      font-family: 'Inter', sans-serif;
     }
 
     input:focus, select:focus, textarea:focus {
@@ -185,6 +193,7 @@
       display: flex;
       align-items: center;
       gap: 6px;
+      font-family: 'Inter', sans-serif;
     }
 
     .btn-group {
@@ -206,6 +215,7 @@
       transition: 0.2s;
       letter-spacing: 0.3px;
       flex: 1 0 auto;
+      font-family: 'Inter', sans-serif;
     }
 
     button:hover {
@@ -232,10 +242,16 @@
     #faq-content h3 {
       color: #0b6e3a;
       margin-top: 16px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
     }
 
     #faq-content h3:first-of-type {
       margin-top: 0;
+    }
+
+    #faq-content p {
+      font-family: 'Inter', sans-serif;
     }
 
     pre {
@@ -246,10 +262,11 @@
       overflow-x: auto;
       font-size: 0.95rem;
       margin: 12px 0;
+      font-family: 'JetBrains Mono', 'Courier New', monospace;
     }
 
     code, kbd, samp {
-      font-family: 'Courier New', monospace;
+      font-family: 'JetBrains Mono', 'Courier New', monospace;
     }
 
     kbd {
@@ -258,6 +275,7 @@
       border-radius: 6px;
       font-weight: 600;
       border: 1px solid #b0c0ce;
+      font-family: 'JetBrains Mono', 'Courier New', monospace;
     }
 
     .url-box {
@@ -266,7 +284,7 @@
       border-left: 6px solid #0b7a32;
       border-radius: 8px;
       word-break: break-all;
-      font-family: 'Courier New', monospace;
+      font-family: 'JetBrains Mono', 'Courier New', monospace;
     }
 
     .compare {
@@ -283,6 +301,11 @@
       border: 1px solid #dde6ef;
     }
 
+    .compare h3 {
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+
     .compare pre {
       margin: 8px 0 0;
       background: #1a252f;
@@ -292,6 +315,14 @@
       padding: 20px 18px;
     }
 
+    aside .card h2 {
+      font-family: 'Inter', sans-serif;
+    }
+
+    aside .card p {
+      font-family: 'Inter', sans-serif;
+    }
+
     aside ul {
       padding-left: 20px;
       margin: 8px 0 4px;
@@ -299,6 +330,7 @@
 
     aside ul li {
       margin-bottom: 6px;
+      font-family: 'Inter', sans-serif;
     }
 
     marquee {
@@ -307,6 +339,7 @@
       border-radius: 40px;
       font-weight: 500;
       color: #045d24;
+      font-family: 'Inter', sans-serif;
     }
 
     footer {
@@ -320,6 +353,11 @@
 
     footer p {
       margin: 6px 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .card p, .card li, .card h3, .card article {
+      font-family: 'Inter', sans-serif;
     }
 
     @media (max-width: 820px) {
@@ -366,8 +404,10 @@
   <main>
     <section id="overview" class="card">
       <h2>📚 Event Overview</h2>
-      <p>SMCC-CCIS Week 2025 is a five-day campus celebration that highlights the creativity, innovation, and technical skills of students under the College of Computing and Information Sciences. Students will participate in coding competitions, technology exhibits, seminars, workshops, cybersecurity awareness activities, robotics demonstrations, and project presentations.</p>
-      <p>The event encourages collaboration, leadership, creativity, and the responsible use of technology while providing opportunities for students to showcase their talents and learn from professionals in the IT industry.</p>
+      <p><strong>SMCC-CCIS Week 2025</strong> is a week-long celebration of technology, innovation, and student excellence. Organized by the College of Computing and Information Sciences, this event brings together students, faculty, and industry professionals for a series of engaging activities designed to inspire and empower the next generation of tech leaders.</p>
+      <p>This year's theme, <em>"Innovating Together: Building the Future of Technology,"</em> highlights the importance of collaboration and creativity in solving real-world problems. Participants will have the chance to showcase their skills, learn from experts, and connect with like-minded individuals who share a passion for technology.</p>
+      <p>The event features a diverse range of activities including coding competitions, robotics exhibitions, cybersecurity seminars, hands-on workshops, project showcases, and networking opportunities. Whether you are a beginner or an experienced technologist, SMCC-CCIS Week 2025 offers something for everyone.</p>
+      <p>Join us as we celebrate the spirit of innovation and discover the endless possibilities that technology brings to our world. Let's innovate, collaborate, and create a brighter future together!</p>
       <img src="images/picture.jpg" alt="SMCC-CCIS Week 2025 Banner">
     </section>
 
